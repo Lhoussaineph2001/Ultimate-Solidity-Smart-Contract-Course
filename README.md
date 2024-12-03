@@ -2,7 +2,6 @@
 
 Welcome to the Ultimate Solidity Smart Contract Course for Complete Beginners! My goal here is to teach you everything you need to know to help you <ins>kickstart your career as a Solidity Developer</ins> 🚀
 
-<div align="center">Watch the Course (Netflix Style) <br>And Keep Track of Your Progress Here👇</div>
 
 <p align="center">
     <img src="../ultimate-solidity-course-for-complete-beginners/BG.png" style="max-width:800px; width:100%;">
