@@ -2,10 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-
 // ✅ Create a function to delete a  Student 
-// ✅ Create OnlyOwner modifier 
-// ✅ Implement the modifier to allow only the owner to call the function
+// ✅ implement a require statment to check if the user is the owner of the contract 
+
 
 contract Student {
 
@@ -24,13 +23,6 @@ contract Student {
 
     mapping (uint256 ID => student) public IDtoStudent;
 
-
-    modifier OnlyOwner() {
-        
-        // require code
-    _;
-
-    }
 
 
     constructor() {
@@ -100,7 +92,11 @@ contract Student {
     
     }
 
-    function deleteStudent(uint _id) external OnlyOwner {
+    function deleteStudent(uint _id) external {
+
+        // HERE !!
+       require(msg.sender == owner, "Only owner can call this function");
+
 
         uint256 length = students.length;
         string memory studentName;
@@ -113,7 +109,7 @@ contract Student {
                 studentName = students[i].name;
     
                 // Remove the student from the array
-                students[i] = students[length - 1]; // Move the last element to the current index
+                 students[length - 1] = students[i]; // Move the last element to the current index
     
                 students.pop(); // Remove the last element to shrink the array
     

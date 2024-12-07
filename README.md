@@ -68,19 +68,20 @@ In this course, you will learn:
 - [Exercise](Exercises/2-3-Loops-Exercise.sol)
 - [Solution](Solutions/2-3-Loops-Solution.sol)
 
-# 11 - Solidity Modifiers 
+# 11 - Require Statement
 
-# 12 - Modifiers Exercise
+# 12 - Require Statement Exercise 
 
-- [Exercise](Exercises/2-4-Modifier-Exercise.sol) 
+- [Exercise](Exercises/2-4-Require-Exercise.sol)
+- [Solution](Solutions/2-4-Require-Solution.sol)
+
+# 13 - Solidity Modifiers 🔐
+
+# 14 - Solidity Modifiers Exercise
+
+- [Exercise](Exercises/2-5-Modifier-Exercise.sol) 
 - [Solution](Solutions/2-5-Modifier-Solution.sol)
 
-# 13 - Require Statement
-
-# 14 - Require Statement Exercise 
-
-- [Exercise](Exercises/2-5-Require-Exercise.sol)
-- [Solution](Solutions/2-5-Require-Solution.sol)
 
 # 15 - Solidity Events 📆
 

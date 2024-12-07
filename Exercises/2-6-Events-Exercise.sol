@@ -121,7 +121,7 @@ contract Student {
                 studentName = students[i].name;
     
                 // Remove the student from the array
-                students[i] = students[length - 1]; // Move the last element to the current index
+                 students[length - 1] = students[i]; // Move the last element to the current index
     
                 students.pop(); // Remove the last element to shrink the array
     
